@@ -1,0 +1,17 @@
+.alert-container {
+  width: 60%;
+  position: fixed;
+  float: right;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.alert-container .alert {
+  margin: 5px;
+  opacity: 0.5;
+}
+
+.alert-container .alert:hover {
+  opacity: 1;
+}
